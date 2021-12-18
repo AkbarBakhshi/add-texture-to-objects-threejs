@@ -122,7 +122,7 @@ export default class {
                 if (obj.material[prop] !== null && typeof obj.material[prop].dispose === 'function')
                     obj.material[prop].dispose();
             })
-            obj.material.dispose();
+            // obj.material.dispose();
         }
     }
 }
